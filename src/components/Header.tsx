@@ -23,13 +23,12 @@ export default function Header() {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center">
-              <Image
+              <img
                 src="/ftd-logo.svg"
                 alt="First Try Distribution"
                 width={120}
                 height={40}
                 className="h-10 w-auto"
-                unoptimized
               />
             </Link>
           </div>
